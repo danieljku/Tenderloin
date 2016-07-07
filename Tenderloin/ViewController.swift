@@ -53,7 +53,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }else if(meters < 500 && meters > 250){
             mapView.selectAnnotation(mapView.userLocation, animated: true)
             mapView.tintColor = UIColor.yellowColor()
-            mapView.userLocation.title = "YOU ARE IN THE TENDERLOIN!!"
+            mapView.userLocation.title = "YOU ARE IN TENDERLOIN!!"
         }else if(meters <= 250){
             mapView.selectAnnotation(mapView.userLocation, animated: true)
             mapView.tintColor = UIColor.redColor()
